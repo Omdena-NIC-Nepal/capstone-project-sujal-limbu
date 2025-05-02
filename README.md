@@ -41,7 +41,7 @@ This project analyzes the impact of climate trends and glacial resources on agri
 - Data Sources: Open Data Nepal
 - Built as part of the Omdena Capstone Project.
 
-
+## Dashboard Link : http://localhost:8501/
 
 
 
