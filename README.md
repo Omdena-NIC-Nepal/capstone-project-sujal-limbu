@@ -11,6 +11,10 @@ This project analyzes the impact of climate trends and glacial resources on agri
 
 🌐 Live App : 👉 [Click here to view the Streamlit App](https://sujallimbu.streamlit.app/)
 
+📄 Report :  [View the  Report](http://127.0.0.1:5500/Summary.html)
+
+
+
 ## 📁 Project Structure
 
 ![Climate Agriculture Analysis](images/Folders.png)
