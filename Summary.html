@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nepal Climate-Agriculture Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        ul {
+            line-height: 1.6;
+        }
+
+        details {
+            margin-top: 1em;
+            background: #eef;
+            padding: 1em;
+            border-radius: 5px;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button {
+            background-color: #2ecc71;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-top: 1em;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 Nepal Climate-Agriculture Analysis</h1>
+    <p>This project integrates climate, glacial, and agriculture data for Nepal, applies feature engineering, and performs clustering to discover patterns.</p>
+
+    <h2>🔍 Project Workflow</h2>
+
+    <details>
+        <summary>📁 Data Merging</summary>
+        <ul>
+            <li>Combines district-level precipitation</li>
+            <li>Joins basin-level glacial data</li>
+            <li>Includes national-level agriculture indicators</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>🛠 Feature Engineering</summary>
+        <ul>
+            <li>Handles missing values</li>
+            <li>Creates interaction & normalized features</li>
+            <li>Encodes categorical variables</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>🧠 Clustering</summary>
+        <ul>
+            <li>Applies KMeans clustering on cleaned data</li>
+            <li>Determines optimal cluster count via Elbow method</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>📊 Visualization</summary>
+        <ul>
+            <li>Interactive plots via Streamlit dashboard</li>
+            <li>Correlation heatmap and scatter plots</li>
+        </ul>
+    </details>
+
+    <button onclick="alert('This would trigger a CSV download in a full app.')">⬇️ Download Filtered Dataset</button>
+
+    <!-- Placeholder for chart integration -->
+    <!--
+    <canvas id="myChart" width="400" height="200"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Region A', 'Region B', 'Region C'],
+                datasets: [{
+                    label: 'Precipitation (mm)',
+                    data: [120, 90, 150],
+                    backgroundColor: '#3498db'
+                }]
+            }
+        });
+    </script>
+    -->
+</body>
+</html>
