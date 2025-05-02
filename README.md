@@ -9,6 +9,8 @@ This project analyzes the impact of climate trends and glacial resources on agri
 - Clustering using K-Means
 - An interactive dashboard built with Streamlit
 
+🌐 Live App : 👉 [Click here to view the Streamlit App](https://sujallimbu.streamlit.app/)
+
 ## 📁 Project Structure
 
 ![Climate Agriculture Analysis](images/Folders.png)
@@ -41,7 +43,7 @@ This project analyzes the impact of climate trends and glacial resources on agri
 - Data Sources: Open Data Nepal
 - Built as part of the Omdena Capstone Project.
 
-## Dashboard Link : http://localhost:8501/
+
 
 
 
