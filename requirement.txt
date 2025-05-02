@@ -3,5 +3,5 @@ numpy
 scikit-learn
 joblib
 streamlit
-seaborn
+seaborn==0.13.2
 matplotlib
